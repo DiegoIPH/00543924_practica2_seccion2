@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: rgb(89, 173, 145);
+    margin: 2%;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    max-width: 13%;
+    gap: 30%;
+}
+
+.item > img{
+    width: 100%;
+    height: 100%;
+}
+
+.item > p{
+    margin-left: 30%;
+}
